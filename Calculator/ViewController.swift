@@ -11,6 +11,10 @@ class ViewController: UIViewController {
 
     @IBOutlet var divisionButton: UIButton!
     @IBOutlet var multiplyButton: UIButton!
+    @IBOutlet var diffButton: UIButton!
+    @IBOutlet var summButton: UIButton!
+    @IBOutlet var equalButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

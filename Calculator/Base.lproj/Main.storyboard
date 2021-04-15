@@ -45,27 +45,72 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2q-j2-02D">
+                                <rect key="frame" x="321" y="378" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.62352941179999999" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d2q-j2-02D" secondAttribute="height" multiplier="1:1" id="3sM-c6-aYl"/>
+                                    <constraint firstAttribute="width" constant="75" id="RU7-Cd-jkK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fpa-CU-SD2">
+                                <rect key="frame" x="321" y="468" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.62352941179999999" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="l67-er-dpb"/>
+                                    <constraint firstAttribute="width" secondItem="Fpa-CU-SD2" secondAttribute="height" multiplier="1:1" id="oea-Ef-6jM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ts-oQ-lzk">
+                                <rect key="frame" x="321" y="558" width="75" height="75"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.62352941179999999" blue="0.023529411760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="4Nx-sg-gUR"/>
+                                    <constraint firstAttribute="width" secondItem="9ts-oQ-lzk" secondAttribute="height" multiplier="1:1" id="eh4-lH-tiQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6OT-GY-4Im" firstAttribute="top" secondItem="9rC-4q-IJ6" secondAttribute="bottom" constant="30" id="0ih-YR-WmP"/>
+                            <constraint firstItem="Fpa-CU-SD2" firstAttribute="top" secondItem="d2q-j2-02D" secondAttribute="bottom" constant="15" id="3Iy-av-k0n"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8q9-9A-GfY" secondAttribute="trailing" constant="18" id="6WW-sX-bha"/>
-                            <constraint firstItem="8q9-9A-GfY" firstAttribute="width" secondItem="8q9-9A-GfY" secondAttribute="height" multiplier="1:1" id="8dY-b5-kI5"/>
+                            <constraint firstItem="d2q-j2-02D" firstAttribute="top" secondItem="8q9-9A-GfY" secondAttribute="bottom" constant="15" id="DYm-jL-uGf"/>
                             <constraint firstItem="8q9-9A-GfY" firstAttribute="top" secondItem="6OT-GY-4Im" secondAttribute="bottom" constant="15" id="Ex0-9l-DJJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d2q-j2-02D" secondAttribute="trailing" constant="18" id="PXN-0W-fB3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fpa-CU-SD2" secondAttribute="trailing" constant="18" id="SYf-uc-lzO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6OT-GY-4Im" secondAttribute="trailing" constant="18" id="Vyx-Wf-cOh"/>
+                            <constraint firstItem="Fpa-CU-SD2" firstAttribute="top" secondItem="d2q-j2-02D" secondAttribute="bottom" constant="15" id="ZWM-JB-MF4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9ts-oQ-lzk" secondAttribute="trailing" constant="18" id="fzc-sj-PS2"/>
+                            <constraint firstItem="9ts-oQ-lzk" firstAttribute="top" secondItem="Fpa-CU-SD2" secondAttribute="bottom" constant="15" id="hqZ-KQ-rUe"/>
                             <constraint firstItem="9rC-4q-IJ6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="p87-VF-Oe5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9rC-4q-IJ6" secondAttribute="trailing" constant="18" id="wox-Wo-g9O"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="diffButton" destination="d2q-j2-02D" id="lP1-mc-fUW"/>
                         <outlet property="divisionButton" destination="6OT-GY-4Im" id="WLV-lX-k0p"/>
+                        <outlet property="equalButton" destination="9ts-oQ-lzk" id="Zaz-Sp-WiS"/>
                         <outlet property="multiplyButton" destination="8q9-9A-GfY" id="MqD-Fk-jxq"/>
+                        <outlet property="summButton" destination="Fpa-CU-SD2" id="F4B-Bj-pox"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="66"/>
+            <point key="canvasLocation" x="-333" y="78"/>
         </scene>
     </scenes>
 </document>
