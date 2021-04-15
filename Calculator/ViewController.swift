@@ -15,6 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet var summButton: UIButton!
     @IBOutlet var equalButton: UIButton!
     
+    @IBOutlet var percentButton: UIButton!
+    @IBOutlet var nineButton: UIButton!
+    @IBOutlet var sixButton: UIButton!
+    @IBOutlet var threeButton: UIButton!
+    @IBOutlet var separatorButton: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +31,8 @@ class ViewController: UIViewController {
 
     private func setupView() {
         addCornerRadius(for: [
-            divisionButton,
-            multiplyButton,
-            diffButton,
-            summButton,
-            equalButton
+            divisionButton, multiplyButton, diffButton, summButton, equalButton,
+            percentButton, nineButton, sixButton, threeButton, separatorButton
         ])
     }
 
