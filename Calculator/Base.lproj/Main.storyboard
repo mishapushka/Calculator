@@ -58,6 +58,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9rC-4q-IJ6" secondAttribute="trailing" constant="18" id="wox-Wo-g9O"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="divisionButton" destination="6OT-GY-4Im" id="WLV-lX-k0p"/>
+                        <outlet property="multiplyButton" destination="8q9-9A-GfY" id="MqD-Fk-jxq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
