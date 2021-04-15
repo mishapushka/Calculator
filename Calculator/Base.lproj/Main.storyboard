@@ -161,7 +161,7 @@
                                     <constraint firstAttribute="width" constant="75" id="pbP-IP-BMW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="7">
+                                <state key="normal" title="8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -222,7 +222,7 @@
                                     <constraint firstAttribute="width" constant="75" id="gq2-7e-H6j"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="6">
+                                <state key="normal" title="7">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -309,15 +309,24 @@
                     </view>
                     <connections>
                         <outlet property="diffButton" destination="d2q-j2-02D" id="lP1-mc-fUW"/>
+                        <outlet property="dischargeButton" destination="rRP-HC-XxE" id="3Sv-2I-HbV"/>
                         <outlet property="divisionButton" destination="6OT-GY-4Im" id="WLV-lX-k0p"/>
+                        <outlet property="eightButton" destination="KAJ-RD-Zbr" id="W0a-ph-33n"/>
                         <outlet property="equalButton" destination="9ts-oQ-lzk" id="Zaz-Sp-WiS"/>
+                        <outlet property="fiveButton" destination="Daw-yn-swM" id="Na2-K4-17Y"/>
+                        <outlet property="fourButton" destination="Soq-gZ-woh" id="0gQ-3x-HHQ"/>
                         <outlet property="multiplyButton" destination="8q9-9A-GfY" id="MqD-Fk-jxq"/>
                         <outlet property="nineButton" destination="R7P-TP-UI9" id="fop-Po-eoY"/>
+                        <outlet property="oneButton" destination="0ve-Ii-AdI" id="P39-24-atf"/>
                         <outlet property="percentButton" destination="Zbd-lS-c9S" id="vt9-cM-cWf"/>
+                        <outlet property="plusMinusButton" destination="u4I-ls-Jh9" id="SXg-YD-B2D"/>
                         <outlet property="separatorButton" destination="fFO-TL-Dgr" id="EcW-qx-kYB"/>
+                        <outlet property="sevenButton" destination="ihE-1t-y58" id="Xh8-LV-UKY"/>
                         <outlet property="sixButton" destination="4zE-Vg-uia" id="P2K-IS-eD5"/>
                         <outlet property="summButton" destination="Fpa-CU-SD2" id="F4B-Bj-pox"/>
                         <outlet property="threeButton" destination="4iB-1r-A7o" id="hgK-bQ-RCD"/>
+                        <outlet property="twoButton" destination="f1b-b9-DPF" id="bYH-8M-3z0"/>
+                        <outlet property="zeroButton" destination="hi9-Sj-yfK" id="ZY3-q0-EH4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

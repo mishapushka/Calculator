@@ -21,6 +21,17 @@ class ViewController: UIViewController {
     @IBOutlet var threeButton: UIButton!
     @IBOutlet var separatorButton: UIButton!
 
+    @IBOutlet var plusMinusButton: UIButton!
+    @IBOutlet var eightButton: UIButton!
+    @IBOutlet var fiveButton: UIButton!
+    @IBOutlet var twoButton: UIButton!
+
+    @IBOutlet var dischargeButton: UIButton!
+    @IBOutlet var sevenButton: UIButton!
+    @IBOutlet var fourButton: UIButton!
+    @IBOutlet var oneButton: UIButton!
+
+    @IBOutlet var zeroButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +43,10 @@ class ViewController: UIViewController {
     private func setupView() {
         addCornerRadius(for: [
             divisionButton, multiplyButton, diffButton, summButton, equalButton,
-            percentButton, nineButton, sixButton, threeButton, separatorButton
+            percentButton, nineButton, sixButton, threeButton, separatorButton,
+            plusMinusButton, eightButton, fiveButton, twoButton,
+            dischargeButton, sevenButton, fourButton, oneButton,
+            zeroButton
         ])
     }
 
