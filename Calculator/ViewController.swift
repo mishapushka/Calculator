@@ -24,11 +24,20 @@ class ViewController: UIViewController {
 
 
     private func setupView() {
-        divisionButton.layer.masksToBounds = true
-        divisionButton.layer.cornerRadius = divisionButton.frame.height / 2
+        addCornerRadius(for: [
+            divisionButton,
+            multiplyButton,
+            diffButton,
+            summButton,
+            equalButton
+        ])
+    }
 
-        multiplyButton.layer.masksToBounds = true
-        multiplyButton.layer.cornerRadius = multiplyButton.frame.height / 2
+    private func addCornerRadius(for buttons: [UIButton]) {
+        buttons.forEach {
+            $0.layer.masksToBounds = true
+            $0.layer.cornerRadius = $0.frame.height / 2
+        }
     }
 }
 
